@@ -17,5 +17,20 @@ public class Main {
         result=result%3;
         System.out.println("result 4 % 3 : "+result);
 
+    //Abbreviating Operators
+    result++;// 1+1=2
+        System.out.println("result++ (1+1): "+result);
+    result--;//2-1=1
+        System.out.println("result-- (2-1): "+result);
+    result += 2;//1+2 =3
+        System.out.println("result+=2 : "+ result);
+    result-=2; //3-2=1
+        System.out.println("result-=2: "+ result);
+    result*=10; // 1*10 =10
+        System.out.println("result*=10 : "+result);
+    result/=5; //10/5=2;
+        System.out.println("result/=5 : "+result);
+    result%=2; // 2%2=0;
+        System.out.println("result%=2 : "+result);
     }
 }
