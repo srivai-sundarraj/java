@@ -51,5 +51,12 @@ public class Main {
    if((topScore>90) || (anotherTopScore>=90))
        System.out.println("Both conditions are failed");
 
+   int newValue=100;
+   if(newValue==100)
+       System.out.println("This is true");
+   boolean isCar=false;
+   if(isCar==true) // if(isCar=true) code work here
+       System.out.println("It is really car");
+
     }
 }
