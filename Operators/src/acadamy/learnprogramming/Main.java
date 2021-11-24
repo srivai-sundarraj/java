@@ -40,5 +40,14 @@ public class Main {
        System.out.println("I'm not a Alien");
         System.out.println("I'm Alien");
    }
+   int topScore=80;
+   if(topScore<100)
+       System.out.println("You got high score");
+
+   int anotherTopScore=81;
+   if(topScore>anotherTopScore && anotherTopScore<100)
+       System.out.println("You got another Top score");
+
+
     }
 }
