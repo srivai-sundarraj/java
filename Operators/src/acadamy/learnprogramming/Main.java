@@ -46,8 +46,10 @@ public class Main {
 
    int anotherTopScore=81;
    if(topScore>anotherTopScore && anotherTopScore<100)
-       System.out.println("You got another Top score");
+       System.out.println("greater than second top score and less than 100");
 
+   if((topScore>90) || (anotherTopScore>=90))
+       System.out.println("Both conditions are failed");
 
     }
 }
