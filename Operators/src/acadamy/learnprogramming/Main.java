@@ -32,5 +32,13 @@ public class Main {
         System.out.println("result/=5 : "+result);
     result%=2; // 2%2=0;
         System.out.println("result%=2 : "+result);
+
+   //if-then Statement
+   boolean isAlien=false;
+   if(isAlien==false)
+   {
+       System.out.println("I'm not a Alien");
+        System.out.println("I'm Alien");
+   }
     }
 }
