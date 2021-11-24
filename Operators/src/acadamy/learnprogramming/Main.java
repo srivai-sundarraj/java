@@ -68,5 +68,16 @@ public class Main {
    if(isEighteenOver)
        System.out.println("Yes it is eighteen over");
 
+   //Operator Precedence and Operator Challenge
+   double myFirstValue=20.00;
+   double mySecondValue=80.00;
+   double myTotal=(myFirstValue+mySecondValue)*100.00; // double myTotal=myFirstValue+mySecondValue*100.00;
+        System.out.println("myTotal : "+ myTotal);
+    double myRemainder=myTotal%40.00;
+        System.out.println("myRemainder : "+myRemainder);
+    boolean isNoRemainder=myRemainder==0?true:false;
+        System.out.println("isNoRemainder : "+isNoRemainder);
+    if(!isNoRemainder)
+        System.out.println("get some remainder");
     }
 }
