@@ -58,5 +58,15 @@ public class Main {
    if(isCar==true) // if(isCar=true) code work here
        System.out.println("It is really car");
 
+   isCar=true;
+   boolean wasCar=isCar?true:false;
+   if(wasCar)
+       System.out.println("wasCar is true");
+
+   int ageofClient=20;
+   boolean isEighteenOver=(ageofClient>18)?true:false;
+   if(isEighteenOver)
+       System.out.println("Yes it is eighteen over");
+
     }
 }
